@@ -37,7 +37,7 @@ public class Hroch implements AnimalInterface {
 	}
 	@Override
 	public void setWeight() {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub 
 		System.out.println("KRETENSKA METODA OD KRETENA");
 	}
 	
