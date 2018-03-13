@@ -8,7 +8,7 @@ private String name;
 	this.weight =  weight;
 	this.name = name;
 }
-
+ 
 	@Override
 	public double getWeight() {
 		// TODO Auto-generated method stub
