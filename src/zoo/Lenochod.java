@@ -5,11 +5,14 @@ package zoo;
 
 /**
  * @author sevcik3
- *
+ * @version 1.1
  */
 public class Lenochod implements AnimalInterface{
 	
-	
+	/**
+	 * Mass of animal
+	 */
+	private double weight;	
 
 	@Override
 	public double getWeight() {
@@ -19,14 +22,15 @@ public class Lenochod implements AnimalInterface{
 
 	@Override
 	public void setWeight(double weight) {
-		
-		
+		if( weight < 0) {
+			System.out.println("Negative value");
+		}
+		this.weight = weight;
 	}
 
 	@Override
 	public double foodConsumption() {
-		double food = 0.0;
-		return food;
+		return weight * 0.5;
 	}
 
 	@Override

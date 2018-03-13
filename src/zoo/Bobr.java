@@ -18,7 +18,6 @@ this.weight=weight;
 		return weight;
 	}
 
-	@Override
 	public void setWeight(int weight) {
 		// TODO Auto-generated method stub
 			this.weight=weight;
@@ -40,6 +39,11 @@ this.weight=weight;
 	public String whoAmI() {
 		// TODO Auto-generated method stub
 		return name;
+	}
+	@Override
+	public void setWeight(double weight) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
