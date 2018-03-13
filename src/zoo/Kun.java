@@ -12,9 +12,11 @@ public class Kun implements AnimalInterface {
 
 	@Override
 	public void setWeight(double weight) {
+
 		// TODO Auto-generated method stub
 		this.weight = weight;
 	}
+
 
 	public int getTail() {
 		return tail;
