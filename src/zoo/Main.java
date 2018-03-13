@@ -14,7 +14,6 @@ public class Main {
 		ArrayList<AnimalInterface> animals = new ArrayList<>();
 			
 		animals.add(new Yeti());
-		
 		for(AnimalInterface anim : animals) {
 			System.out.println(anim.whoAmI()+": "+anim.doSound());
 		}
