@@ -11,7 +11,7 @@ public class Kun implements AnimalInterface {
 	}
 
 	@Override
-	public void setWeight(int weight) {
+	public void setWeight() {
 		// TODO Auto-generated method stub
 		this.weight = weight;
 	}
@@ -40,6 +40,12 @@ public class Kun implements AnimalInterface {
 	public String whoAmI() {
 		// TODO Auto-generated method stub
 		return "Horse Fuchs";
+	}
+
+	@Override
+	public void setWeight(double weight) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
