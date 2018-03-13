@@ -9,11 +9,6 @@ private double delkaParohu;
 		return weight;
 	}
 
-	@Override
-	public void setWeight(int weight) {
-		// TODO Auto-generated method stub
-		this.weight = weight;
-	}
 
 	@Override
 	public double foodConsumption() {
@@ -31,6 +26,11 @@ private double delkaParohu;
 	public String whoAmI() {
 		// TODO Auto-generated method stub
 		return "Kamzík";
+	}
+
+	@Override
+	public void setWeight(double weight) {
+		this.weight = weight;
 	}
 
 }
