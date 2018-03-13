@@ -8,7 +8,15 @@ package zoo;
  */
 public class Medved implements AnimalInterface {
 	
+	private String name = "BLACK BEARA";
 	private double weight;
+	private double height;
+	
+	public Medved(double weight, double height) {
+		this.setWeight(weight);
+		this.height = height;
+	}
+	
 
 	/**
 	 * Tato metoda vrací hmotnost zvíøete
@@ -55,13 +63,13 @@ public class Medved implements AnimalInterface {
 	}
 
 	/**
-	 * Metoda øíká co za zvíøe právì je.
+	 * Metoda øíká, jak se zvíøe jmenuje.
 	 * 
 	 * @return		String
 	 */
 	@Override
 	public String whoAmI() {
-		return "BLACK BEARA";
+		return name;
 	}
 
 }
