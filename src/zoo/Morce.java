@@ -1,5 +1,9 @@
 package zoo;
-
+/**
+ * 
+ * @author aleks
+ *
+ */
 public class Morce implements AnimalInterface{
 	private double weight;
 	private String barva;
@@ -7,7 +11,7 @@ public class Morce implements AnimalInterface{
 	@Override
 	public double getWeight() {
 		// TODO Auto-generated method stub
-		return 0;
+		return weight;
 	}
 
 	@Override
