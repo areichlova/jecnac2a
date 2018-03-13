@@ -5,7 +5,7 @@ package zoo;
 
 /**
  * @author glas
- *
+ * @version 1.0
  */
 public class Psoun implements AnimalInterface{
 
@@ -16,13 +16,13 @@ public class Psoun implements AnimalInterface{
 	@Override
 	public double getWeight() {
 		// TODO Auto-generated method stub
-		return 0;
+		return weight;
 	}
 
 	@Override
 	public void setWeight(int weight) {
 		// TODO Auto-generated method stub
-		
+		this.weight = weight;
 	}
 
 	@Override
