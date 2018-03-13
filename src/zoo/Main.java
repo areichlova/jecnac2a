@@ -14,6 +14,8 @@ public class Main {
 		
 		//Zde vytvorte objekt sve tridy a vlozte ho do ArrayListu
 		
+		animals.add(new Yeti());
+		
 		for(AnimalInterface anim : animals) {
 			System.out.println(anim.whoAmI()+": "+anim.doSound());
 		}
