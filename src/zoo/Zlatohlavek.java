@@ -50,7 +50,7 @@ public class Zlatohlavek implements AnimalInterface {
 	@Override
 	public String whoAmI() {
 		// TODO Auto-generated method stub
-		return "Zlatohlávek";
+		return "Zlatohlavek";
 	}
 
 	
