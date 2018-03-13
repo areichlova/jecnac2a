@@ -16,6 +16,14 @@ public class Kun implements AnimalInterface {
 		this.weight = weight;
 	}
 
+	public int getTail() {
+		return tail;
+	}
+
+	public void setTail(int tail) {
+		this.tail = tail;
+	}
+
 	@Override
 	public double foodConsumption() {
 		// TODO Auto-generated method stub
