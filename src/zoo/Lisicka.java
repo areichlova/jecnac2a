@@ -25,7 +25,7 @@ public class Lisicka implements AnimalInterface{
 	@Override
 	public double foodConsumption() {
 		// TODO Auto-generated method stub
-		return weight*1;   
+		return weight*0.5;   
 	}
 
 	@Override
