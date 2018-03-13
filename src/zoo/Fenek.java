@@ -3,7 +3,7 @@ package zoo;
 public class Fenek implements AnimalInterface {
 
 	private double weight;
-	
+	/*
 	public Fenek(double weight) {
 		this.weight = weight; 
 	}
@@ -13,7 +13,7 @@ public class Fenek implements AnimalInterface {
 		// TODO Auto-generated constructor stub
 		this.weight = w;
 	}
-
+	*/
 	@Override
 	public double getWeight() {
 		// TODO Auto-generated method stub
