@@ -1,43 +1,61 @@
 package zoo;
 
-public class Lisicka implements AnimalInterface{
+public class Zlatohlavek implements AnimalInterface {
+	
 	private double weight;
-	private int dotNumber;
+	private String rank;
+	
+	
+	
+	
 
-	public Lisicka(double weight, int dotNumber) {
+	public Zlatohlavek(double weight, String rank) {
 		super();
 		this.weight = weight;
-		this.dotNumber = dotNumber;
+		this.rank = rank;
 	}
-
+	
+	public String getRank() {
+		return rank;
+	}
+	
+	public void setRank(String rank) {
+		this.rank = rank;
+	}
+	
+	
 	@Override
 	public double getWeight() {
 		// TODO Auto-generated method stub
-		return weight;
+		return 0.002;
 	}
 
 	@Override
 	public void setWeight(double weight) {
 		// TODO Auto-generated method stub
-		this.weight = weight; 
+		this.weight=weight;
+		
 	}
 
 	@Override
 	public double foodConsumption() {
 		// TODO Auto-generated method stub
-		return weight*0.5;   
+		return weight*1.5;
 	}
 
 	@Override
 	public String doSound() {
 		// TODO Auto-generated method stub
-		return "Mrrrr";
+		return "Bzzz!";
 	}
 
 	@Override
 	public String whoAmI() {
 		// TODO Auto-generated method stub
-		return "Lisicka: ";
-	}  
+		return "Zlatohlavek";
+	}
 
+	
+	
+	
 }
