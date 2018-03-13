@@ -19,8 +19,8 @@ public class Bizon implements AnimalInterface{
 	@Override
 	public void setWeight(int weight) {
 		// TODO Auto-generated method stub
-		this.weight = weight;
-	}
+		this.weight =weight;
+	} 
 
 	@Override
 	public double foodConsumption() {
