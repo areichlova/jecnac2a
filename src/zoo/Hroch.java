@@ -3,7 +3,7 @@ package zoo;
 public class Hroch implements AnimalInterface {
 	protected double weight;
 	protected double delka;
-	
+	 
 	public Hroch(double we, double d) {
 		super();
 		// TODO Auto-generated constructor stub
@@ -23,7 +23,7 @@ public class Hroch implements AnimalInterface {
 	@Override
 	public double foodConsumption() {
 		// TODO Auto-generated method stub
-		return delka * weight;
+		return Math.log10(weight*delka);
 	}
 	@Override
 	public String doSound() {

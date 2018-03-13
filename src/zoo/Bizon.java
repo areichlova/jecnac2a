@@ -1,41 +1,43 @@
 package zoo;
 
-public class Morce implements AnimalInterface{
+public class Bizon implements AnimalInterface{
 	private double weight;
-	private String barva;
-	
+	private int dotNumber;
+
+	public Bizon(double weight, int dotNumber) {
+		super();
+		this.weight = weight;
+		this.dotNumber = dotNumber;
+	}
+
 	@Override
 	public double getWeight() {
 		// TODO Auto-generated method stub
-		return 0;
+		return weight;
 	}
 
 	@Override
-
 	public void setWeight(double weight) {
 		// TODO Auto-generated method stub
 		this.weight = weight;
-	}
+	} 
 
 	@Override
 	public double foodConsumption() {
 		// TODO Auto-generated method stub
-		return weight*0.4;
+		return weight;
 	}
 
 	@Override
 	public String doSound() {
 		// TODO Auto-generated method stub
-		return "roof roof";
+		return "Buuuu, Buuu u!";
 	}
 
 	@Override
 	public String whoAmI() {
 		// TODO Auto-generated method stub
-		return "Krecek";
+		return "Bizon: ";
 	}
-
-	
-	
 
 }
