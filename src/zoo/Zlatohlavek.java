@@ -53,7 +53,7 @@ public class Zlatohlavek implements AnimalInterface {
 	public String whoAmI() {
 		// TODO Auto-generated method stub
 		return "Zlatohlavek";
-	}
+	} 
 
 	
 	
