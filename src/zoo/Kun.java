@@ -33,7 +33,7 @@ public class Kun implements AnimalInterface {
 	@Override
 	public String doSound() {
 		// TODO Auto-generated method stub
-		return "CHPRPRPRPR";
+		return "CHPRPRPRPRR";
 	}
 
 	@Override
@@ -44,7 +44,7 @@ public class Kun implements AnimalInterface {
 
 	@Override
 	public void setWeight(double weight) {
-		// TODO Auto-generated method stub
+		//TODO Auto-generated method stub
 		
 	}
 
