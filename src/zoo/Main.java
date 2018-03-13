@@ -25,9 +25,10 @@ public class Main {
 		System.out.println("Ščančar mi dluží prachy, berušky.");
 		
 		animals.add(new Lenochod());
-			
+		
 		animals.add(new Yeti());
 		animals.add(new Hroch(269,2.5));
+		animals.add(new Kun());
 
 		
 		for(AnimalInterface anim : animals) {
