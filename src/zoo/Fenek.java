@@ -3,6 +3,10 @@ package zoo;
 public class Fenek implements AnimalInterface {
 
 	private double weight;
+	
+	public Fenek(double weight) {
+		this.weight = weight; 
+	}
 
 	public Fenek(double w) {
 		super();
