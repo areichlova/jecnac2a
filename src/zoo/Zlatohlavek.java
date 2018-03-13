@@ -7,6 +7,7 @@ public class Zlatohlavek implements AnimalInterface {
 	
 	
 	
+	
 
 	public Zlatohlavek(double weight, String rank) {
 		super();
