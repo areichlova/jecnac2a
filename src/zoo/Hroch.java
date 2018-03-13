@@ -2,7 +2,7 @@ package zoo;
 /**
  * Zvíøe: Hroch
  * @author Matajzík Ondøej
- *
+ * 
  */
 public class Hroch implements AnimalInterface {
 	protected double weight;
