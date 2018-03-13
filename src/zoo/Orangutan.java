@@ -1,32 +1,38 @@
 package zoo;
+/**
+ * 
+ * @author kolman
+ *
+ */
 
 public class Orangutan implements AnimalInterface {
 
 	private double weight;
+	private int height;
+	
+	public Orangutan(double weight, int height) {
+		this.weight = weight;
+		this.height = height;
+	}
 	
 	public double getWeight() {
-		
-		return 0;
+		return weight;
 	}
 
-	public void setWeight(int weight) {
+	public void setWeight(double weight) {
 		this.weight = weight;
-		
 	}
 
 	public double foodConsumption() {
-		
 		return weight*2;
 	}
 
 	public String doSound() {
-		
-		return "Random zvuk";
+		return "Huhuhuhuhuhu";
 	}
 
 	public String whoAmI() {
-		
-		return "Kryšpín";
+		return "Orangutan Kryšpín";
 	}
 
 }
