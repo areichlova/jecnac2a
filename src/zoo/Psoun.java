@@ -1,6 +1,4 @@
-/**
- * 
- */
+
 package zoo;
 
 /**
@@ -10,8 +8,16 @@ package zoo;
 public class Psoun implements AnimalInterface{
 
 	private double weight;
+	private double foodperkilos;
 	private String sound;
-	private String identity;
+	private String identities;
+
+	public Psoun(double weight, double foodperkilos, String sound, String identities){
+		this.weight = weight;
+		this.foodperkilos = foodperkilos;
+		this.sound = sound;
+		this.identities = identities;
+	}
 	
 	@Override
 	public double getWeight() {
@@ -28,19 +34,19 @@ public class Psoun implements AnimalInterface{
 	@Override
 	public double foodConsumption() {
 		// TODO Auto-generated method stub
-		return 0;
+		return weight/foodperkilos;
 	}
 
 	@Override
 	public String doSound() {
 		// TODO Auto-generated method stub
-		return null;
+		return sound;
 	}
 
 	@Override
 	public String whoAmI() {
 		// TODO Auto-generated method stub
-		return null;
+		return identities;
 	}
 
 }
