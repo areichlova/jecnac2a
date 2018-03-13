@@ -9,7 +9,7 @@ public class Fenek implements AnimalInterface {
 		// TODO Auto-generated constructor stub
 		this.weight = w;
 	}
- 
+
 	@Override
 	public double getWeight() {
 		// TODO Auto-generated method stub
