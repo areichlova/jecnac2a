@@ -1,41 +1,35 @@
 package zoo;
 
-public class Kojot implements AnimalInterface {
-private double weight;
-private String name;
-	
-	public Kojot(double weight, String name) {
-	this.weight =  weight;
-	this.name = name;
-}
- 
+public class Kojot implements AnimalInterface{
+
 	@Override
 	public double getWeight() {
 		// TODO Auto-generated method stub
-		return weight;
+		return 0;
 	}
 
 	@Override
 	public void setWeight(double weight) {
-		this.weight = weight;
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
 	public double foodConsumption() {
 		// TODO Auto-generated method stub
-		return weight/4;
+		return 0;
 	}
 
 	@Override
 	public String doSound() {
 		// TODO Auto-generated method stub
-		return "[Zvuk kojota]";
+		return null;
 	}
 
 	@Override
 	public String whoAmI() {
 		// TODO Auto-generated method stub
-		return name; 
+		return null;
 	}
 
 }
