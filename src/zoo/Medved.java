@@ -1,36 +1,36 @@
 package zoo;
 
-public class Fenek implements AnimalInterface {
-
+public class Medved implements AnimalInterface {
+	
 	private double weight;
 
 	@Override
 	public double getWeight() {
-		// TODO Auto-generated method stub
 		return weight;
 	}
 
 	@Override
 	public void setWeight(double weight) {
+		if(weight < 0) {
+			
+		}
 		this.weight = weight;
 	}
 
 	@Override
 	public double foodConsumption() {
-		// TODO Auto-generated method stub
-		return weight*1.8;
+		return 0;
 	}
 
 	@Override
 	public String doSound() {
-		// TODO Auto-generated method stub
-		return"woof woof";
+		return "";
 	}
 
 	@Override
 	public String whoAmI() {
 		// TODO Auto-generated method stub
-		return "Fenek";
+		return null;
 	}
 
 }

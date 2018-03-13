@@ -9,8 +9,13 @@ import java.util.ArrayList;
  */
 public class Main {
 	
+
 	public static void main(String[] args) {
 		ArrayList<AnimalInterface> animals = new ArrayList<>();
+		
+		System.out.println("Ščančar mi dluží prachy, berušky.");
+		
+		animals.add(new Lenochod());
 			
 		animals.add(new Yeti());
 		
