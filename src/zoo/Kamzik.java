@@ -18,7 +18,7 @@ private double delkaParohu;
 	@Override
 	public double foodConsumption() {
 		// TODO Auto-generated method stub
-		return weight*2;
+		return weight*delkaParohu*2;
 	}
 
 	@Override
