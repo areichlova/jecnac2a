@@ -3,7 +3,7 @@ package zoo;
 
 /**
  * @author glas
- * @version 2
+ * @version 2.1
  */
 public class Psoun implements AnimalInterface{
 
