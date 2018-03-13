@@ -11,5 +11,6 @@ public interface AnimalInterface {
 	public String doSound();
 	public String whoAmI();
 	void setWeight();
+	pardon
 
 }
