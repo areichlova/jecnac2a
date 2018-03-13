@@ -16,7 +16,7 @@ public class Hroch implements AnimalInterface {
 		return this.weight;
 	}
 	@Override
-	public void setWeight(int weight) {
+	public void setWeight(double weight) {
 		// TODO Auto-generated method stub
 		this.weight = weight;
 	}
