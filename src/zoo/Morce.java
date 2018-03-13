@@ -11,6 +11,7 @@ public class Morce implements AnimalInterface{
 	}
 
 	@Override
+
 	public void setWeight(double weight) {
 		// TODO Auto-generated method stub
 		this.weight = weight;
@@ -33,6 +34,8 @@ public class Morce implements AnimalInterface{
 		// TODO Auto-generated method stub
 		return "Krecek";
 	}
+
+	
 	
 
 }
