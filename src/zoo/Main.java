@@ -11,11 +11,7 @@ import java.util.ArrayList;
 public class Main {
 
 	
-	//Zde jsem nìco napsal.
-	
-
 	 
-
 
 	public static void main(String[] args) {
 		ArrayList<AnimalInterface> animals = new ArrayList<>();
