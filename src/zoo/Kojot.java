@@ -12,7 +12,7 @@ public class Kojot implements AnimalInterface{
 	public void setWeight(double weight) {
 		// TODO Auto-generated method stub
 		
-	}
+	} 
 
 	@Override
 	public double foodConsumption() {
