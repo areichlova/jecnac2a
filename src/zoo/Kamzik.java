@@ -15,6 +15,13 @@ private double delkaParohu;
 		return weight*delkaParohu*2;
 	}
 
+	public Kamzik(double weight, double delkaParohu) {
+		
+		this.weight = weight;
+		this.delkaParohu = delkaParohu;
+	}
+
+
 	@Override
 	public String doSound() {
 		// TODO Auto-generated method stub
