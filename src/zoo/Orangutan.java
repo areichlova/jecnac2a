@@ -12,16 +12,13 @@ public class Orangutan implements AnimalInterface {
 	
 	public Orangutan(double weight, int height) {
 		this.weight = weight;
-		this.height = height;
+		this.setHeight(height);
 	}
 	
 	public double getWeight() {
 		return weight;
 	}
-	@Override
-	public void setWeight() {
-			
-	}
+	
 	public double foodConsumption() {
 		return weight*2;
 	}
@@ -37,6 +34,14 @@ public class Orangutan implements AnimalInterface {
 	@Override
 	public void setWeight(double weight) {
 		this.weight = weight;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+
+	public void setHeight(int height) {
+		this.height = height;
 	}
 
 	
