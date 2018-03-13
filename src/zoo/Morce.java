@@ -1,40 +1,38 @@
 package zoo;
 
-public class Hroch implements AnimalInterface {
-	protected double weight;
-	protected double delka;
-	 
-	public Hroch(double we, double d) {
-		super();
-		// TODO Auto-generated constructor stub
-		weight = we;
-		delka = d;
-	}
+public class Morce implements AnimalInterface{
+	private double weight;
+	private String barva;
+	
 	@Override
 	public double getWeight() {
 		// TODO Auto-generated method stub
-		return this.weight;
+		return 0;
 	}
+
 	@Override
 	public void setWeight(double weight) {
 		// TODO Auto-generated method stub
 		this.weight = weight;
 	}
+
 	@Override
 	public double foodConsumption() {
 		// TODO Auto-generated method stub
-		return Math.log10(weight*delka);
+		return weight*0.4;
 	}
+
 	@Override
 	public String doSound() {
 		// TODO Auto-generated method stub
-		return "UAFUIAUFAHUFAUA";
+		return "roof roof";
 	}
+
 	@Override
 	public String whoAmI() {
 		// TODO Auto-generated method stub
-		return "Hroch Ferda";
+		return "Krecek";
 	}
 	
-	
+
 }
