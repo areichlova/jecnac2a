@@ -17,7 +17,7 @@ public class Lisicka implements AnimalInterface{
 	}
 
 	@Override
-	public void setWeight(int weight) {
+	public void setWeight(double weight) {
 		// TODO Auto-generated method stub
 		this.weight = weight;
 	}
@@ -38,6 +38,6 @@ public class Lisicka implements AnimalInterface{
 	public String whoAmI() {
 		// TODO Auto-generated method stub
 		return "Lisicka: ";
-	} 
+	}  
 
 }
