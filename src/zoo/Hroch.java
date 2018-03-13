@@ -35,11 +35,6 @@ public class Hroch implements AnimalInterface {
 		// TODO Auto-generated method stub
 		return "Hroch Ferda";
 	}
-	@Override
-	public void setWeight() {
-		// TODO Auto-generated method stub 
-		System.out.println("KRETENSKA METODA OD KRETENA");
-	}
 	
 	
 }
