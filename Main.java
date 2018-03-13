@@ -9,10 +9,12 @@ import java.util.ArrayList;
  */
 public class Main {
 	
+	//Zde jsem nìco napsal.
+
 	public static void main(String[] args) {
 		ArrayList<AnimalInterface> animals = new ArrayList<>();
-			
-		animals.add(new Yeti());
+		
+		//Zde vytvorte objekt sve tridy a vlozte ho do ArrayListu
 		
 		for(AnimalInterface anim : animals) {
 			System.out.println(anim.whoAmI()+": "+anim.doSound());
