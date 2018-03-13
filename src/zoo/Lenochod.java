@@ -5,7 +5,7 @@ package zoo;
 
 /**
  * @author sevcik3
- * @version 1.3
+ * @version 1.4
  */
 public class Lenochod implements AnimalInterface{
 	
