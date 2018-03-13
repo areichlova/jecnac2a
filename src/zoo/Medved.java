@@ -10,7 +10,7 @@ public class Medved implements AnimalInterface {
 	}
 
 	@Override
-	public void setWeight(int weight) {
+	public void setWeight(double weight) {
 		if(weight < 0) {
 			
 		}
