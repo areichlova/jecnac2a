@@ -10,4 +10,6 @@ public interface AnimalInterface {
 	public double foodConsumption();
 	public String doSound();
 	public String whoAmI();
+	void setWeight();
+
 }
