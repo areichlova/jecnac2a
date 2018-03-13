@@ -10,13 +10,13 @@ public class Psoun implements AnimalInterface{
 	private double weight;
 	private double foodperkilos;
 	private String sound;
-	private String identity;
+	private String identities;
 
-	public Psoun(double weight, double foodperkilos, String sound, String identity){
+	public Psoun(double weight, double foodperkilos, String sound, String identities){
 		this.weight = weight;
 		this.foodperkilos = foodperkilos;
 		this.sound = sound;
-		this.identity = identity;
+		this.identities = identities;
 	}
 	
 	@Override
@@ -46,7 +46,7 @@ public class Psoun implements AnimalInterface{
 	@Override
 	public String whoAmI() {
 		// TODO Auto-generated method stub
-		return identity;
+		return identities;
 	}
 
 }
