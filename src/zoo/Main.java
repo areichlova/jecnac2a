@@ -29,7 +29,7 @@ public class Main {
 		animals.add(new Hroch(269,2.5));
 		animals.add(new Kun());
 
-		animals.add(new Morce(2,"Frederik"));
+		animals.add(new Morce(2,"Cerna"));//Scancar Krecek- vaha a barva
 
 		
 
