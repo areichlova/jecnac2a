@@ -4,7 +4,6 @@ public class Kojot implements AnimalInterface {
 private double weight;
 private String name;
 	
-	
 	public Kojot(double weight, String name) {
 	this.weight =  weight;
 	this.name = name;
