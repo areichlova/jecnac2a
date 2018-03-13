@@ -10,8 +10,10 @@ package zoo;
 public class Psoun implements AnimalInterface{
 
 	private double weight;
+	private double foodperkilos;
 	private String sound;
 	private String identity;
+
 	
 	@Override
 	public double getWeight() {
@@ -28,7 +30,7 @@ public class Psoun implements AnimalInterface{
 	@Override
 	public double foodConsumption() {
 		// TODO Auto-generated method stub
-		return 0;
+		return weight/foodperkilos;
 	}
 
 	@Override
