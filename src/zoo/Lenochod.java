@@ -13,32 +13,32 @@ public class Lenochod implements AnimalInterface{
 
 	@Override
 	public double getWeight() {
-		// TODO Auto-generated method stub
-		return ;
+			double weight = 0.0;
+		return weight;
 	}
 
 	@Override
-	public void setWeight(int weight) {
-		// TODO Auto-generated method stub
+	public void setWeight(double weight) {
+		
 		
 	}
 
 	@Override
 	public double foodConsumption() {
-		// TODO Auto-generated method stub
-		return 0;
+		double food = 0.0;
+		return food;
 	}
 
 	@Override
 	public String doSound() {
-		// TODO Auto-generated method stub
-		return null;
+		String text ="";
+		return text;
 	}
 
 	@Override
 	public String whoAmI() {
-		// TODO Auto-generated method stub
-		return null;
+		String text = "";
+		return text;
 	}
 
 	

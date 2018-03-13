@@ -16,7 +16,7 @@ public class Main {
 		
 		System.out.println("Ščančar mi dluží prachy, berušky.");
 		
-		//Zde vytvorte objekt sve tridy a vlozte ho do ArrayListu
+		animals.add(new Lenochod());
 		
 		for(AnimalInterface anim : animals) {
 			System.out.println(anim.whoAmI()+": "+anim.doSound());
