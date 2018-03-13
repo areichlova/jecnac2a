@@ -25,7 +25,7 @@ public class Main {
 		animals.add(new Yeti());
 		animals.add(new Hroch(269,2.5));
 		animals.add(new Kun());
-
+		animals.add(new Morce(3,"Frederik"));
 		
 		for(AnimalInterface anim : animals) {
 			System.out.println(anim.whoAmI()+": "+anim.doSound());
