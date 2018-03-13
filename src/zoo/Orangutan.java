@@ -18,11 +18,10 @@ public class Orangutan implements AnimalInterface {
 	public double getWeight() {
 		return weight;
 	}
-
-	public void setWeight(double weight) {
-		this.weight = weight;
+	@Override
+	public void setWeight() {
+			
 	}
-
 	public double foodConsumption() {
 		return weight*2;
 	}
@@ -34,5 +33,13 @@ public class Orangutan implements AnimalInterface {
 	public String whoAmI() {
 		return "Orangutan Kryšpín";
 	}
+
+	@Override
+	public void setWeight(double weight) {
+		this.weight = weight;
+	}
+
+	
+
 
 }
