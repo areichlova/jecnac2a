@@ -9,10 +9,12 @@ import java.util.ArrayList;
  */
 public class Main {
 	
-	//Zde jsem n�co napsal.
+	//Zde jsem n�co napsal.
 
 	public static void main(String[] args) {
 		ArrayList<AnimalInterface> animals = new ArrayList<>();
+		
+		System.out.println("Ščančar mi dluží prachy, berušky.");
 		
 		//Zde vytvorte objekt sve tridy a vlozte ho do ArrayListu
 		
