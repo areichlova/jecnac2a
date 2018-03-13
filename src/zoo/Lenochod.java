@@ -14,6 +14,16 @@ public class Lenochod implements AnimalInterface{
 	 */
 	private double weight;	
 	
+	public Lenochod(double weight) {
+		if(weight < 0) {
+			System.out.println("Wrong value of weight");
+			return;
+		}
+		this.weight = weight;
+	}
+	
+	
+	
 	/**
 	 * Getter for Weight of Sloth 
 	 * @return weight
