@@ -31,7 +31,7 @@ public class Lisicka implements AnimalInterface{
 	@Override
 	public String doSound() {
 		// TODO Auto-generated method stub
-		return "Mrrrr";
+		return "Vrrrr";
 	}
 
 	@Override
