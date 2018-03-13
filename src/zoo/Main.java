@@ -33,7 +33,7 @@ public class Main {
 
 		
 
-		animals.add(new Fenek(1.2)); 
+		//animals.add(new Fenek(1.2)); 
 		for(AnimalInterface anim : animals) {
 			System.out.println(anim.whoAmI()+": "+anim.doSound());
 		}
