@@ -5,7 +5,7 @@ public class Fenek implements AnimalInterface {
 	private double weight;
 	
 	public Fenek(double weight) {
-		this.weight = weight;
+		this.weight = weight; 
 	}
 
 	@Override
