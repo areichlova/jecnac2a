@@ -1,12 +1,17 @@
+/**
+ * 
+ */
 package zoo;
 
-public class Fenek implements AnimalInterface {
+/**
+ * @author glas
+ * @version 1.0
+ */
+public class Psoun implements AnimalInterface{
 
 	private double weight;
-
-	public Fenek(double weight) {
-		this.weight = weight;
-	}
+	private String sound;
+	private String identity;
 	
 	@Override
 	public double getWeight() {
@@ -16,25 +21,26 @@ public class Fenek implements AnimalInterface {
 
 	@Override
 	public void setWeight(double weight) {
+		// TODO Auto-generated method stub
 		this.weight = weight;
 	}
 
 	@Override
 	public double foodConsumption() {
 		// TODO Auto-generated method stub
-		return weight*1.8;
+		return 0;
 	}
 
 	@Override
 	public String doSound() {
 		// TODO Auto-generated method stub
-		return"woof woof";
+		return null;
 	}
 
 	@Override
 	public String whoAmI() {
 		// TODO Auto-generated method stub
-		return "Fenek";
+		return null;
 	}
 
 }

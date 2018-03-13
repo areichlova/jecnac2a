@@ -1,13 +1,15 @@
 package zoo;
 
-public class Fenek implements AnimalInterface {
-
+public class Bizon implements AnimalInterface{
 	private double weight;
+	private int dotNumber;
 
-	public Fenek(double weight) {
+	public Bizon(double weight, int dotNumber) {
+		super();
 		this.weight = weight;
+		this.dotNumber = dotNumber;
 	}
-	
+
 	@Override
 	public double getWeight() {
 		// TODO Auto-generated method stub
@@ -16,25 +18,26 @@ public class Fenek implements AnimalInterface {
 
 	@Override
 	public void setWeight(double weight) {
+		// TODO Auto-generated method stub
 		this.weight = weight;
-	}
+	} 
 
 	@Override
 	public double foodConsumption() {
 		// TODO Auto-generated method stub
-		return weight*1.8;
+		return weight;
 	}
 
 	@Override
 	public String doSound() {
 		// TODO Auto-generated method stub
-		return"woof woof";
+		return "Buuuu, Buuu u!";
 	}
 
 	@Override
 	public String whoAmI() {
 		// TODO Auto-generated method stub
-		return "Fenek";
+		return "Bizon: ";
 	}
 
 }
