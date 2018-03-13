@@ -2,7 +2,7 @@ package zoo;
 /**
  * Very basic animal interface
  * @author alik
- * @version 1.0
+ * @version 1.1
  */
 public interface AnimalInterface {
 	public double getWeight();
