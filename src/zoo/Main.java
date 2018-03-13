@@ -10,9 +10,6 @@ import java.util.ArrayList;
 public class Main {
 
 	
-	//Zde jsem nìco napsal.
-	
-
 	 
 
 
