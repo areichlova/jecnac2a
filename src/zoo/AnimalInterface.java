@@ -6,8 +6,10 @@ package zoo;
  */
 public interface AnimalInterface {
 	public double getWeight();
-	public void setWeight(int weight);
+	public void setWeight(double weight);
 	public double foodConsumption();
 	public String doSound();
 	public String whoAmI();
+	void setWeight();
+
 }
