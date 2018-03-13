@@ -31,7 +31,7 @@ public class Bizon implements AnimalInterface{
 	@Override
 	public String doSound() {
 		// TODO Auto-generated method stub
-		return "Buuuu, Buuuu!";
+		return "Buuuu, Buuu u!";
 	}
 
 	@Override
