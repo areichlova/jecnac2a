@@ -23,7 +23,7 @@ public class Hroch implements AnimalInterface {
 	@Override
 	public double foodConsumption() {
 		// TODO Auto-generated method stub
-		return delka * weight;
+		return Math.log10(weight*delka);
 	}
 	@Override
 	public String doSound() {
