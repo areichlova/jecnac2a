@@ -11,12 +11,6 @@ public class Morce implements AnimalInterface{
 	}
 
 	@Override
-	public void setWeight(int weight) {
-		// TODO Auto-generated method stub
-		this.weight = weight;
-	}
-
-	@Override
 	public double foodConsumption() {
 		// TODO Auto-generated method stub
 		return weight*0.4;
@@ -32,6 +26,12 @@ public class Morce implements AnimalInterface{
 	public String whoAmI() {
 		// TODO Auto-generated method stub
 		return "Krecek";
+	}
+
+	@Override
+	public void setWeight(double weight) {
+		// TODO Auto-generated method stub
+		this.weight = weight;
 	}
 	
 
