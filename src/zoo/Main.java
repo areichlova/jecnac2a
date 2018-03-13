@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Entry class
  * @author alik
- * @version 1.0
+ * @version 1.1
  */
 public class Main {
 	 
