@@ -5,7 +5,7 @@ package zoo;
 
 /**
  * @author sevcik3
- * @version 1.1
+ * @version 1.4
  */
 public class Lenochod implements AnimalInterface{
 	
@@ -13,13 +13,19 @@ public class Lenochod implements AnimalInterface{
 	 * Mass of animal
 	 */
 	private double weight;	
-
+	
+	/**
+	 * Getter for Weight of Sloth 
+	 * @return weight
+	 */
 	@Override
 	public double getWeight() {
-			double weight = 0.0;
 		return weight;
 	}
 
+	/**
+	 * Set weight of Sloth
+	 */
 	@Override
 	public void setWeight(double weight) {
 		if( weight < 0) {
@@ -27,21 +33,32 @@ public class Lenochod implements AnimalInterface{
 		}
 		this.weight = weight;
 	}
-
+	
+	/**
+	 * @return food consuption
+	 */
 	@Override
 	public double foodConsumption() {
 		return weight * 0.5;
 	}
-
+	
+	/**
+	 * Sound of Animal
+	 * @return sound of animal
+	 */
 	@Override
 	public String doSound() {
-		String text ="";
+		String text = "zzzz... Ščančar mi dluží prachy... zzz";
 		return text;
 	}
 
+	/**
+	 * Returns string of who I am
+	 * @return who Am I?
+	 */
 	@Override
 	public String whoAmI() {
-		String text = "";
+		String text = "Lenochod (Sloth)";
 		return text;
 	}
 

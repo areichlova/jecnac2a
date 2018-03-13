@@ -9,8 +9,6 @@ import java.util.ArrayList;
  * @version 1.1
  */
 public class Main {
-
-	
 	 
 
 	public static void main(String[] args) {
@@ -33,7 +31,7 @@ public class Main {
 
 		
 
-		animals.add(new Fenek(1.2)); 
+		//animals.add(new Fenek(1.2)); 
 		for(AnimalInterface anim : animals) {
 			System.out.println(anim.whoAmI()+": "+anim.doSound());
 		}
