@@ -1,35 +1,38 @@
 package zoo;
 
 public class Lemur implements AnimalInterface {
-
+	
+	private double weight;
+	private int delkaOcasu;
+	
+	public Lemur(double weight , int delkaOcasu) {
+		this.weight = weight;
+		this.delkaOcasu = delkaOcasu;
+	}
 	@Override
 	public double getWeight() {
-		// TODO Auto-generated method stub
-		return 0;
+		return weight;
 	}
 
 	@Override
 	public void setWeight(double weight) {
-		// TODO Auto-generated method stub
+		this.weight = weight;
 		
 	}
 
 	@Override
 	public double foodConsumption() {
-		// TODO Auto-generated method stub
-		return 0;
+		return 4;
 	}
 
 	@Override
 	public String doSound() {
-		// TODO Auto-generated method stub
-		return null;
+		return "horrible sound";
 	}
 
 	@Override
 	public String whoAmI() {
-		// TODO Auto-generated method stub
-		return null;
+		return "lemur";
 	}
 
 }
