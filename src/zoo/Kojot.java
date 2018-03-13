@@ -1,11 +1,11 @@
 package zoo;
 
 public class Kojot implements AnimalInterface {
-private int weight;
+private double weight;
 private String name;
 	
 	
-	public Kojot(int weight, String name) {
+	public Kojot(double weight, String name) {
 	this.weight =  weight;
 	this.name = name;
 }
@@ -16,11 +16,11 @@ private String name;
 		return weight;
 	}
 
-/*	@Override
+	@Override
 	public void setWeight(int weight) {
 		
 	}
-*/
+
 	@Override
 	public double foodConsumption() {
 		// TODO Auto-generated method stub
