@@ -1,36 +1,46 @@
+/**
+ * 
+ */
 package zoo;
 
-public class Medved implements AnimalInterface {
+/**
+ * @author sevcik3
+ *
+ */
+public class Lenochod implements AnimalInterface{
 	
-	private double weight;
+	
 
 	@Override
 	public double getWeight() {
+			double weight = 0.0;
 		return weight;
 	}
 
 	@Override
 	public void setWeight(double weight) {
-		if(weight < 0) {
-			
-		}
-		this.weight = weight;
+		
+		
 	}
 
 	@Override
 	public double foodConsumption() {
-		return 0;
+		double food = 0.0;
+		return food;
 	}
 
 	@Override
 	public String doSound() {
-		return "";
+		String text ="";
+		return text;
 	}
 
 	@Override
 	public String whoAmI() {
-		// TODO Auto-generated method stub
-		return null;
+		String text = "";
+		return text;
 	}
+
+	
 
 }
