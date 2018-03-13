@@ -36,7 +36,7 @@ private String name;
 	@Override
 	public String whoAmI() {
 		// TODO Auto-generated method stub
-		return name;
+		return name; 
 	}
 
 }
