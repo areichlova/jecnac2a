@@ -12,6 +12,10 @@ public class Main {
 
 	public static void main(String[] args) {
 		ArrayList<AnimalInterface> animals = new ArrayList<>();
+		
+		System.out.println("Ščančar mi dluží prachy, berušky.");
+		
+		animals.add(new Lenochod());
 			
 		animals.add(new Yeti());
 		animals.add(new Hroch(269,2.5));
