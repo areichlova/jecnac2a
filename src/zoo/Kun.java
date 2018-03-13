@@ -1,41 +1,51 @@
 package zoo;
 
-public class Morce implements AnimalInterface{
+public class Kun implements AnimalInterface {
 	private double weight;
-	private String barva;
-	
+	private int tail;
+
 	@Override
 	public double getWeight() {
 		// TODO Auto-generated method stub
-		return 0;
+		return weight;
 	}
 
 	@Override
-
-	public void setWeight(double weight) {
+	public void setWeight() {
 		// TODO Auto-generated method stub
 		this.weight = weight;
+	}
+
+	public int getTail() {
+		return tail;
+	}
+
+	public void setTail(int tail) {
+		this.tail = tail;
 	}
 
 	@Override
 	public double foodConsumption() {
 		// TODO Auto-generated method stub
-		return weight*0.4;
+		return weight*10;
 	}
 
 	@Override
 	public String doSound() {
 		// TODO Auto-generated method stub
-		return "roof roof";
+		return "CHPRPRPRPRR";
 	}
 
 	@Override
 	public String whoAmI() {
 		// TODO Auto-generated method stub
-		return "Krecek";
+		return "Horse Fuchs";
 	}
 
-	
-	
+	@Override
+	public void setWeight(double weight) {
+		//TODO Auto-generated method stub
+		
+	}
 
 }
