@@ -11,7 +11,7 @@ public class Fenek implements AnimalInterface {
 	}
 
 	@Override
-	public void setWeight(int weight) {
+	public void setWeight(double weight) {
 		this.weight = weight;
 	}
 
