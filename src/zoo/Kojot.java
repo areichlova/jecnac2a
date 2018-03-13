@@ -16,11 +16,11 @@ private String name;
 		return weight;
 	}
 
-	@Override
+/*	@Override
 	public void setWeight(int weight) {
 		
 	}
-
+*/
 	@Override
 	public double foodConsumption() {
 		// TODO Auto-generated method stub
