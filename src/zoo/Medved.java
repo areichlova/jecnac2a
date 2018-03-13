@@ -27,7 +27,7 @@ public class Medved implements AnimalInterface {
 	 * @param		weight váha, na kterou to chcete zmìnit
 	 */
 	@Override
-	public void setWeight(int weight) {
+	public void setWeight(double weight) {
 		if(weight < 0) {
 			System.out.println("Nejde zadat záporná èi nulová hmotnost.");
 		}
